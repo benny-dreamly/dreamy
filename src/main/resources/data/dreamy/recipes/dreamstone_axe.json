@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DD ",
+    "DS ",
+    " S "
+  ],
+  "key":{
+    "D": {
+      "item": "dreamy:dreamstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dreamy:dreamstone_axe",
+    "count": 1
+  }
+}

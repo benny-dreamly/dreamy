@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DD",
+    "DD"
+  ],
+  "key":{
+    "D": {
+      "item": "dreamy:dreamstone"
+    }
+  },
+  "result": {
+    "item": "dreamy:dreamstone_bricks",
+    "count": 4
+  }
+}
