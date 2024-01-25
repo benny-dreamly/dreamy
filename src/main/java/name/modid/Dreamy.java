@@ -55,6 +55,8 @@ public class Dreamy implements ModInitializer {
 		// Item Group Registering
 		Registry.register(Registries.ITEM_GROUP, new Identifier("dreamy", "dreamy_group"), DREAMY);
 
+		// Misc Stuff
+
 		LOGGER.info("Hello Fabric world!");
 	}
 }
