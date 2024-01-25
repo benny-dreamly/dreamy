@@ -51,6 +51,8 @@ public class Dreamy implements ModInitializer {
 		// Item Registering
 		Registry.register(Registries.ITEM, new Identifier("dreamy", "dreamstone_bricks"), new BlockItem(DREAMSTONE_BRICKS, new FabricItemSettings()));
 		Registry.register(Registries.ITEM, new Identifier("dreamy", "dreamstone"), new BlockItem(DREAMSTONE, new FabricItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier("dreamy", "dreamstone_pickaxe"), DREAMSTONE_PICKAXE);
+		Registry.register(Registries.ITEM, new Identifier("dreamy", "dreamstone_axe"), DREAMSTONE_AXE);
 
 		// Item Group Registering
 		Registry.register(Registries.ITEM_GROUP, new Identifier("dreamy", "dreamy_group"), DREAMY);
